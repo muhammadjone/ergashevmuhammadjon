@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #table td,th 
+       {border: 1px solid black;}
+       #table1{
+           border-collapse: separate;
+           border-spacing: 15px 15px;
+         }
+       th
+       {
+           width: 100px;
+       }
+       .a{
+           width: 100px;
+           height: 20px;
+           background: rgb(12, 218, 190);
+           position: relative;
+           text-emphasis-color:rgb(189, 66, 66);
+           
+           animation: mymove 1s infinite  ;
+
+        }
+        @keyframes mymove
+        {
+            from{left: 0px;}
+            to{right: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <table class="table1">
+        <th>surame:</th>
+        <th><input type="text" class="a"></th>
+    </table>
+    <table>
+        <th>name:</th>
+        <th><input type="text" class="a"></th>
+    </table>
+    <table>
+        <th> fax:</th>
+        <th><input type="text" class="a"></th>
+    </table>
+</body>
+</html>

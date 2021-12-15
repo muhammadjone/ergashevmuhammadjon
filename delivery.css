@@ -1,0 +1,70 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.head
+{
+    height: 650px;
+    width: 960px;
+    border: 1px solid rgb(191, 171, 209);
+    margin-left: 100px;   
+}
+.head1
+{
+    background-image: url(Снимок.PNG);
+    height: 300px;
+   
+}
+.matn
+{
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.head2
+{
+    height: 140px;
+    border: none;
+    display: flex;
+}
+.item
+{
+    border: none;
+    height:140px ;
+    width: 480px;
+}
+.head3
+{
+    border: none;
+    height:140px ;
+    margin-top: 5px;
+    display: flex;
+}
+.item1
+{
+    border: none;
+    height:140px ;
+    width: 480px;
+}
+.item p{
+    text-transform: uppercase;
+    color: red;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.item1 p{
+    text-transform: uppercase;
+    color: red;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.loream
+{
+    margin-top: 20px;
+}
+.item img
+{
+    margin-left: 90px;
+}
